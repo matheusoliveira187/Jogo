@@ -1,0 +1,23 @@
+/* Centraliza os elementos na página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilo do canvas: fundo claro com borda e sombra */
+#canvasJogo {
+    background-color: #ffffff;
+    border: 2px solid #535353;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
